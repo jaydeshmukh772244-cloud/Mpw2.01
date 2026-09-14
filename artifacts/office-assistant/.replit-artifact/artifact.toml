@@ -1,5 +1,5 @@
 kind = "mobile"
-previewPath = "/office-assistant/"
+previewPath = "/"
 title = "Arogya Sevak MPW"
 description = "A mobile assistant for public health workers to manage field visits, health records, tasks, and daily office work in Marathi and English."
 version = "1.0.0"
@@ -9,7 +9,7 @@ router = "expo-domain"
 [[services]]
 name = "expo"
 ensurePreviewReachable = "/status"
-paths = [ "/office-assistant/" ]
+paths = [ "/" ]
 localPort = 21653
 
 [services.development]
@@ -21,4 +21,4 @@ run = [ "pnpm", "--filter", "@workspace/office-assistant", "run", "serve" ]
 
 [services.env]
 PORT = "21653"
-BASE_PATH = "/office-assistant/"
+BASE_PATH = "/"

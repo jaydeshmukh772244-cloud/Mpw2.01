@@ -1,0 +1,36 @@
+Notable Changes
+[71106e1f17] - crypto: update root certificates to NSS 3.126 (Node.js GitHub Bot) #65495
+[afca0a912d] - (SEMVER-MINOR) crypto: support loading private keys through STORE loaders (Filip Skokan) #63949
+[6274fccbd9] - deps: update OpenSSL to 3.5.8 (Node.js GitHub Bot) #65542
+[53cba013c7] - deps: update Undici to 7.29.1 (Node.js GitHub Bot) #65789
+[0529772798] - (SEMVER-MINOR) lib,src: improve histogram implementation (James M Snell) #65024
+[41c7062b81] - (SEMVER-MINOR) net: improve performance of net.BlockList (James M Snell) #64974
+[5197b5a3c5] - (SEMVER-MINOR) perf_hooks: add statistical hypothesis testing to histogram (James M Snell) #65416
+[35c635b032] - (SEMVER-MINOR) util: add non-throwing MIMEType.parse (James M Snell) #64965
+Commits
+[84d706cb9b] - assert: improve documentation wording (Kamal Rawal) #64953
+[90d127db33] - (SEMVER-MINOR) benchmark: add --analyze mode to compare.js (James M Snell) #65416
+[ad1d7884c3] - benchmark: add test-only and mock timers cases (Luan Muniz) #64097
+[1d8f045914] - benchmark: apply highWaterMark in webstreams pipe-to (Matteo Collina) #65138
+[ed7ba3c993] - benchmark: complete the sqlite is-transaction fix (Edy Silva) #65218
+[c8837e1aa3] - benchmark: add test runner hooks and options (Luan Muniz) #63754
+[2ba8661e23] - buffer: prevent string write offset overflow (Matteo Collina) #65043
+[cc9ee6c2ae] - buffer: treat detached ArrayBuffers as empty (Archkon) #64504
+[5a5d73e4c5] - build: pass target architecture to small-icu genccode (ulofiai) #65095
+[273e72d1a5] - build: deprecate always enabled --enable-static (Chengzhong Wu) #65103
+[89a67246e3] - build: check FIPS option value in node.gyp (Filip Skokan) #64982
+[2d21f41cd5] - build: handle malformed OpenSSL macros (Filip Skokan) #64982
+[f62bc0f862] - build,win: add PGO workload scripts (Stefan Stojanovic) #63696
+[33d0c7dc12] - child_process: keep SIGWINCH from killing on Win (Kirill Saied) #64510
+[71106e1f17] - crypto: update root certificates to NSS 3.126 (Node.js GitHub Bot) #65495
+[419af8b86d] - crypto: fix missing error checks on ASN1_STRING_to_UTF8() (Nora Dossche) #65200
+[8029383f3f] - crypto: use available BoringSSL APIs (Filip Skokan) #65423
+[a9bd780e19] - crypto: remove obsolete BoringSSL shims (Filip Skokan) #65423
+[7defefad3f] - crypto: read WebCrypto inputs through primordials (Filip Skokan) #65115
+[6ed1e38627] - crypto: fix disabling FIPS mode (Filip Skokan) #64982
+[afca0a912d] - (SEMVER-MINOR) crypto: support loading private keys through STORE loaders (Filip Skokan) #63949
+[9b9dd6e9cf] - debugger: wait for target startup (Filip Skokan) #65194
+[07faaeeffd] - deps: update corepack to 0.36.0 (Node.js GitHub Bot) #65653
+[53cba013c7] - deps: update undici to 7.29.1 (Node.js GitHub Bot) #65789
+[0268ca547c] - deps: update archs files for openssl-3.5.8 (Node.js GitHub Bot) #65542
+[6274fccbd9] - deps: upgrade openssl sources to openssl-3.5.8 (Node.js GitHub Bot) #65542

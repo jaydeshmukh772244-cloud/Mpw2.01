@@ -1,0 +1,20 @@
+PS C:\Users\Administrator\Downloads\Mpw2-App-Preview\Mpw2-App-Preview> pnpm.cmd install
+Scope: all 9 workspace projects
+✓ Lockfile passes supply-chain policies (verified 6m ago)
+Lockfile is up to date, resolution step is skipped
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: C:\Users\Administrator\AppData\Local\pnpm\store\v11
+  Virtual store is at:             node_modules/.pnpm
+[WARN] GET https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz error (Failed to fetch https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz: error decoding response body: request or response body error: operation timed out) — 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/protobufjs/-/protobufjs-7.6.6.tgz error (Failed to fetch https://registry.npmjs.org/protobufjs/-/protobufjs-7.6.6.tgz: error decoding response body: request or response body error: operation timed out) — 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/sf-symbols-typescript/-/sf-symbols-typescript-2.2.0.tgz error (Failed to fetch https://registry.npmjs.org/sf-symbols-typescript/-/sf-symbols-typescript-2.2.0.tgz: error decoding response body: request or response body error: operation timed out) — 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/@expo/package-manager/-/package-manager-1.13.1.tgz error (Failed to fetch https://registry.npmjs.org/@expo/package-manager/-/package-manager-1.13.1.tgz: error decoding response body: request or response body error: operation timed out) — 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.50.0.tgz error (Failed to fetch https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.50.0.tgz: error decoding response body: request or response body error: operation timed out) — 1
+Will retry in 10s. 1 retries left.
+[WARN] 123 other warnings
+Progress: resolved 1314, reused 32, downloaded 94, added 123
+Downloading hermes-compiler@250829098.0.17: 429.00 B/19.18 MB

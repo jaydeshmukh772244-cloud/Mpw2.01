@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "0239ad2d-371c-4207-b52a-3f1c566223e2"
+      }
+    },
+    "android": {
+      "package": "com.killermiller.workspace"
+    }
+  }
+}
